@@ -1,0 +1,42 @@
+{
+  Stack
+  height : 800
+  [
+    {
+      Stack
+      alignment : topCenter
+      marginTop : 228
+      paddingLeft : 85
+      paddingRight : 85
+      paddingTop : 25
+      paddingBottom : 25
+      height : 231
+      [
+        {
+          Text
+          name : EVigil
+          alignment : bottomCenter
+        }
+        {
+          Image
+          name : user
+          alignment : bottomRight
+          marginRight : 39
+          marginBottom : 12
+        }
+      ]
+    }
+    {
+      Image
+      name : vectorEleven
+      alignment : topLeft
+      height : 340
+    }
+    {
+      Image
+      name : Image
+      alighment : bottomCenter
+      height : 342
+    }
+  ]
+}
