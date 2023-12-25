@@ -1,0 +1,112 @@
+{
+  Column
+  [
+    {
+      Stack
+      alignment : center
+      height : 539
+      [
+        {
+          Image
+          name : Image
+          alignment : topCenter
+          height : 371
+        }
+        {
+          Column
+          alignment : bottomCenter
+          marginLeft : 25
+          marginRight : 25
+          paddingLeft : 18
+          paddingRight : 18
+          paddingTop : 17
+          paddingBottom : 17
+          [
+            {
+              Stack
+              alignment : center
+              height : center
+              height : 39
+              [
+                {
+                  Text
+                  name : EVigil
+                  alignment : center
+                }
+                {
+                  Image
+                  name : user
+                  alighment : bottomRight
+                  marginRight : 22
+                  marginBotton : 7
+                  height : 18
+                }
+              ]
+            }
+            {
+              CustomTextFormField
+              decoration : etxtOutlineBlackAf
+              controllerName : fullname
+              alignment : center
+              marginTop : 38
+              validation : Text Only
+              require : false
+            }
+            {
+              CustomTextFormField
+              decoration : etxtOutlineBlackAf
+              controllerName : email
+              alignment : center
+              marginTop : 21
+              validation : Email
+              require : true
+            }
+            {
+              CustomTextFormField
+              decoration : etxtOutlineBlackAf
+              controllerName : password
+              alignment : center
+              marginTop : 21
+              validation : Password
+              require : true
+            }
+            {
+              CustomTextFormField
+              decoration : etxtOutlineBlackAf
+              controllerName : phone 
+              alignment : center
+              marginTop : 20
+              validation : Phone Number
+              required : false
+            }
+            {
+              CustomTextFormField
+              decoration : etxtOutlineBlackAf
+              controller : PatientIDvalue
+              alignment : center
+              marginTop : 21
+              validation : Password
+              require : true
+            }
+            {
+              CustomButton
+              decoration : btnFillLightGreen
+              name : LogIn
+              alignment : center
+              marginTop : 21
+              marginBottom : 28
+              width : 167
+            }
+          ]
+        }
+      ]
+    }
+    {
+      Image 
+      name : PngTransparent
+      alignment : centerRight
+      marginTop : 46
+      height : 215
+    }
+  ]
+}
